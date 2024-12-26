@@ -1,0 +1,804 @@
+2024-12-21 20:42:20 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-21 20:42:25 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-21 20:42:28 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-21 20:42:29 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-21 20:42:30 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-21 20:42:30 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-21 20:42:30 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-21 20:42:30 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-21 20:42:31 [main] INFO  testcases.TC1_Registration - Email entered:WGEtSAsaiXJQqJjdVpdl@gmail.com
+2024-12-21 20:42:31 [main] INFO  testcases.TC1_Registration - Entered phone number:05852715212077988672
+2024-12-21 20:42:31 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-21 20:42:32 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-21 20:42:33 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-21 20:42:33 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-21 20:42:33 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-21 20:42:33 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-21 20:42:36 [main] INFO  testcases.TC4_SearchProduct - WebDriver initialized for: chrome
+2024-12-21 20:42:39 [main] INFO  testcases.TC4_SearchProduct - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 20:42:39 [main] INFO  testcases.TC4_SearchProduct - Navigated to the Home page.
+2024-12-21 20:42:39 [main] INFO  testcases.TC4_SearchProduct - Entered product name in search field: mac
+2024-12-21 20:42:40 [main] INFO  testcases.TC4_SearchProduct - Clicked on the 'Search' button to initiate product search.
+2024-12-21 20:42:40 [main] INFO  testcases.TC4_SearchProduct - Navigated to the Search Results page.
+2024-12-21 20:42:40 [main] INFO  testcases.TC4_SearchProduct - Verifying if the product 'MacBook' is displayed in the search results.
+2024-12-21 20:42:40 [main] INFO  testcases.TC4_SearchProduct - Product 'MacBook' found in search results. Test passed.
+2024-12-21 20:42:40 [main] INFO  testcases.TC4_SearchProduct - WebDriver quit and removed from ThreadLocal
+2024-12-21 20:42:42 [main] INFO  testcases.TC5_AddToCart - WebDriver initialized for: chrome
+2024-12-21 20:42:45 [main] INFO  testcases.TC5_AddToCart - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 20:42:46 [main] INFO  testcases.TC5_AddToCart - Entered product name in the search box: MacBook
+2024-12-21 20:42:47 [main] INFO  testcases.TC5_AddToCart - Clicked the Search button.
+2024-12-21 20:42:47 [main] INFO  testcases.TC5_AddToCart - Product found in search results: MacBook
+2024-12-21 20:42:48 [main] INFO  testcases.TC5_AddToCart - Selected product: MacBook
+2024-12-21 20:42:48 [main] INFO  testcases.TC5_AddToCart - Set quantity to: 2
+2024-12-21 20:42:48 [main] INFO  testcases.TC5_AddToCart - Clicked 'Add to Cart' for product: MacBook
+2024-12-21 20:42:49 [main] INFO  testcases.TC5_AddToCart - Success message verified successfully.
+2024-12-21 20:42:49 [main] INFO  testcases.TC5_AddToCart - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:23:23 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-21 22:23:28 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-21 22:23:30 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-21 22:23:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-21 22:23:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-21 22:23:33 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-21 22:23:34 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-21 22:23:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-21 22:23:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-21 22:23:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-21 22:23:35 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-21 22:23:35 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-21 22:23:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-21 22:23:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:qaoGcEfymXVELYUniIEB@gmail.com
+2024-12-21 22:23:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:50029357009170222263
+2024-12-21 22:23:36 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-21 22:23:36 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-21 22:23:36 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-21 22:23:37 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-21 22:23:37 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-21 22:23:37 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-21 22:23:37 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:nDTXukkBRfSZtupxyngz@gmail.com
+2024-12-21 22:23:38 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-21 22:23:38 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:58925293910925780247
+2024-12-21 22:23:39 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-21 22:23:39 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-21 22:23:40 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:23:41 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-21 22:23:41 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-21 22:23:41 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-21 22:23:43 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-21 22:23:45 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:23:46 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 22:23:47 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-21 22:23:47 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-21 22:23:47 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-21 22:23:48 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-21 22:23:48 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-21 22:23:50 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-21 22:23:51 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-21 22:23:51 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-21 22:23:51 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-21 22:23:52 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:23:53 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 22:23:54 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-21 22:23:54 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-21 22:23:54 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-21 22:23:55 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-21 22:23:55 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-21 22:23:56 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-21 22:23:56 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-21 22:23:56 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-21 22:23:57 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:53:05 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-21 22:53:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-21 22:53:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-21 22:53:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-21 22:53:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-21 22:53:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-21 22:53:16 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-21 22:53:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-21 22:53:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-21 22:53:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-21 22:53:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-21 22:53:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-21 22:53:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-21 22:53:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-21 22:53:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:eQPWuNPPHZBMuUvlcgJt@gmail.com
+2024-12-21 22:53:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-21 22:53:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:16244192733349543093
+2024-12-21 22:53:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:GNJIUqVXOhnvVrDZISAS@gmail.com
+2024-12-21 22:53:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:80575545370505708512
+2024-12-21 22:53:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-21 22:53:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-21 22:53:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-21 22:53:20 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-21 22:53:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-21 22:53:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-21 22:53:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-21 22:53:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-21 22:53:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-21 22:53:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-21 22:53:22 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:53:23 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:53:26 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-21 22:53:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 22:53:30 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-21 22:53:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-21 22:53:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-21 22:53:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-21 22:53:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-21 22:53:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-21 22:53:33 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-21 22:53:34 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-21 22:53:34 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-21 22:53:34 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-21 22:53:35 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-21 22:53:35 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-21 22:53:35 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-21 22:53:35 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-21 22:53:36 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-21 22:53:36 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-21 22:53:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-21 22:53:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-21 22:53:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-21 22:53:39 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 13:04:13 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 13:04:20 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+2024-12-22 13:05:45 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:06:10 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 15:06:14 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+2024-12-22 15:08:21 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:09:47 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 15:09:50 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+2024-12-22 15:11:56 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:17:13 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 15:17:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-22 15:17:20 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 15:17:20 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 15:17:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 15:17:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 15:17:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 15:17:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 15:17:22 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:aFvRFqdbeADRwelfJYCU@gmail.com
+2024-12-22 15:17:22 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:17658809413637761458
+2024-12-22 15:17:22 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 15:17:23 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 15:17:24 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 15:17:24 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 15:17:24 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 15:17:24 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:17:26 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-22 15:17:29 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 15:17:29 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 15:17:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 15:17:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 15:17:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 15:17:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 15:17:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 15:17:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 15:17:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 15:17:32 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:18:23 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 15:18:26 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-22 15:18:29 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 15:18:29 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 15:18:30 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 15:18:30 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 15:18:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 15:18:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 15:18:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:NAKiZbMbnlHWztiXQywe@gmail.com
+2024-12-22 15:18:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:28933415857088453603
+2024-12-22 15:18:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 15:18:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 15:18:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 15:18:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 15:18:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 15:18:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:18:36 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-22 15:18:37 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 15:18:39 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 15:18:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 15:18:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 15:18:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 15:18:41 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 15:18:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 15:18:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 15:18:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 15:18:42 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:27:50 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-22 15:27:58 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-22 15:27:59 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-22 15:28:02 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 15:28:03 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 15:28:05 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 15:28:05 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 15:28:06 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 15:28:06 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 15:28:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 15:28:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 15:28:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 15:28:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 15:28:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:wsEPlnmdMgXnEHugXhWv@gmail.com
+2024-12-22 15:28:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 15:28:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:76718731461974174545
+2024-12-22 15:28:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 15:28:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 15:28:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:XjOidHISPMbQrHKxXvvM@gmail.com
+2024-12-22 15:28:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:44314932727419157386
+2024-12-22 15:28:13 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 15:28:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 15:28:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 15:28:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 15:28:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 15:28:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 15:28:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 15:28:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 15:28:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 15:28:20 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:28:22 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:28:28 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-22 15:28:28 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-22 15:28:29 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 15:28:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 15:28:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 15:28:34 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 15:28:34 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 15:28:35 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 15:28:37 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 15:28:37 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 15:28:38 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 15:28:39 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 15:28:40 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 15:28:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 15:28:41 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 15:28:41 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 15:28:42 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 15:28:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 15:28:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 15:28:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 15:28:44 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 15:28:45 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 16:42:56 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\gridtests.xml
+
+2024-12-22 16:43:04 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-22 16:43:04 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-22 16:43:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 16:43:08 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-22 16:43:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 16:43:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-22 16:43:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 16:43:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 16:43:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-22 16:43:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-22 16:43:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 16:43:11 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 16:43:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-22 16:43:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-22 16:43:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:sGQDCAXIhLTEXyzBmmed@gmail.com
+2024-12-22 16:43:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:jycefavCWkcGRHgbPokF@gmail.com
+2024-12-22 16:43:13 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:34991904374032918109
+2024-12-22 16:43:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:06502353052146039346
+2024-12-22 16:43:14 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 16:43:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-22 16:43:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 16:43:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-22 16:43:16 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 16:43:16 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 16:43:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-22 16:43:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-22 16:43:16 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 16:43:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-22 16:43:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 16:43:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-22 16:43:19 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-22 16:43:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 16:43:24 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-22 16:43:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 16:43:26 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 16:43:26 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 16:43:26 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 16:43:27 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 16:43:27 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-22 16:43:28 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-22 16:43:28 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 16:43:28 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 16:43:28 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 16:43:28 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-22 16:43:28 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-22 16:43:29 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-22 16:43:29 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-22 16:43:30 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-22 16:43:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-22 16:43:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-22 16:43:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-22 16:43:32 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-23 17:45:51 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-23 17:45:58 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver initialized for: chrome
+2024-12-23 17:48:12 [TestNG-tests-1] INFO  testcases.TC2_Loginddt - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:01:48 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-23 18:01:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-23 18:01:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-23 18:01:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-23 18:01:55 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-23 18:01:55 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-23 18:01:56 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-23 18:01:56 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-23 18:01:56 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:NJuOjudjNdxBkIrZhlXt@gmail.com
+2024-12-23 18:01:56 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:01625811692060809419
+2024-12-23 18:01:57 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-23 18:01:57 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-23 18:01:58 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-23 18:01:58 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-23 18:01:58 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-23 18:01:59 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:02:01 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-23 18:02:04 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-23 18:02:04 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-23 18:02:05 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-23 18:02:05 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-23 18:02:05 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-23 18:02:05 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-23 18:02:06 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-23 18:02:06 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-23 18:02:06 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-23 18:02:07 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:10:40 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\gridtests.xml
+
+2024-12-23 18:10:49 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-23 18:10:49 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-23 18:10:53 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-23 18:10:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-23 18:10:54 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-23 18:10:57 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-23 18:10:57 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-23 18:10:57 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-23 18:11:00 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-23 18:11:00 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-23 18:11:00 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-23 18:11:02 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-23 18:11:02 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-23 18:11:03 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:AktxBtoTYenDICnBTtuM@gmail.com
+2024-12-23 18:11:03 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-23 18:11:04 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:26229193459597313733
+2024-12-23 18:11:05 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:WgIllgNlRFIpzpocRlRc@gmail.com
+2024-12-23 18:11:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:97230403689157779797
+2024-12-23 18:11:08 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-23 18:11:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-23 18:11:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-23 18:11:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-23 18:11:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-23 18:11:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-23 18:11:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-23 18:11:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-23 18:11:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-23 18:11:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-23 18:11:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:11:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:11:19 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-23 18:11:20 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-23 18:11:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-23 18:11:26 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-23 18:11:28 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-23 18:11:28 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-23 18:11:30 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-23 18:11:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-23 18:11:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-23 18:11:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-23 18:11:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-23 18:11:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-23 18:11:33 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-23 18:11:35 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-23 18:11:35 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-23 18:11:35 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-23 18:11:35 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-23 18:11:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-23 18:11:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-23 18:11:37 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-23 18:11:41 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-23 18:11:42 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:19:49 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\gridtests.xml
+
+2024-12-24 18:19:59 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-24 18:20:00 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-24 18:20:03 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-24 18:20:04 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-24 18:20:05 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-24 18:20:05 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-24 18:20:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-24 18:20:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-24 18:20:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-24 18:20:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-24 18:20:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-24 18:20:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-24 18:20:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-24 18:20:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-24 18:20:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:FtwRdfXKRxmZtBojjzsd@gmail.com
+2024-12-24 18:20:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:nZeKAYaLsCoeAGHYYroi@gmail.com
+2024-12-24 18:20:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:94914452964473709674
+2024-12-24 18:20:11 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:52565027557270961010
+2024-12-24 18:20:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-24 18:20:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-24 18:20:13 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-24 18:20:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-24 18:20:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-24 18:20:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-24 18:20:14 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-24 18:20:14 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-24 18:20:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-24 18:20:14 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-24 18:20:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:20:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:20:18 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-24 18:20:21 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-24 18:20:21 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-24 18:20:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-24 18:20:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-24 18:20:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-24 18:20:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-24 18:20:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-24 18:20:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-24 18:20:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-24 18:20:27 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-24 18:20:27 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:20:28 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-24 18:20:30 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-24 18:20:30 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-24 18:20:30 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-24 18:20:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-24 18:20:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-24 18:20:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-24 18:20:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-24 18:20:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-24 18:20:34 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:28:44 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\gridtests.xml
+
+2024-12-24 18:29:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-24 18:29:11 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-24 18:29:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-24 18:29:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-24 18:29:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2024-12-24 18:29:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-24 18:29:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-24 18:29:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-24 18:29:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-24 18:29:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-24 18:29:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:ptPovXsEvSkCfwBTXllh@gmail.com
+2024-12-24 18:29:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-24 18:29:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-24 18:29:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:31289962434014766425
+2024-12-24 18:29:17 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-24 18:29:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-24 18:29:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-24 18:29:18 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-24 18:29:18 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:prjCfDGOOOIBbqIqPETA@gmail.com
+2024-12-24 18:29:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:69729192335263324698
+2024-12-24 18:29:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-24 18:29:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-24 18:29:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-24 18:29:20 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-24 18:29:20 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-24 18:29:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:29:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-24 18:29:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-24 18:29:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-24 18:29:24 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:29:24 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-24 18:29:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-24 18:29:28 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-24 18:29:29 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-24 18:29:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-24 18:29:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-24 18:29:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2024-12-24 18:29:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-24 18:29:31 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-24 18:29:32 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-24 18:29:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-24 18:29:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-24 18:29:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-24 18:29:33 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-24 18:29:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-24 18:29:34 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-24 18:29:34 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-24 18:29:34 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-24 18:29:35 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-24 18:29:35 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-24 18:29:36 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-24 18:29:37 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 15:51:53 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\lambdatests.xml
+
+2024-12-25 15:52:02 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 15:52:02 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2024-12-25 15:52:03 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 15:52:04 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 15:52:05 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 15:52:05 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 15:52:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 15:52:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 15:52:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 15:52:06 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 15:52:06 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 15:52:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 15:52:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 15:52:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:CFtaeJlxDuOrFokJhlPE@gmail.com
+2024-12-25 15:52:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 15:52:07 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:77196836518269908647
+2024-12-25 15:52:07 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:IzeMlDutNrjVtZYhwjLk@gmail.com
+2024-12-25 15:52:08 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:86219325591556268691
+2024-12-25 15:52:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 15:52:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 15:52:08 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 15:52:09 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 15:52:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 15:52:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 15:52:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 15:52:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 15:52:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 15:52:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 15:52:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 15:52:10 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 15:52:18 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 15:52:19 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 15:52:20 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2024-12-25 15:52:21 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 15:52:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 15:52:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 15:52:22 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 15:52:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 15:52:23 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 15:52:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 15:52:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 15:52:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 15:52:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 15:52:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 15:52:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 15:52:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 15:52:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 15:52:25 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 15:52:26 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 15:52:26 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 15:52:26 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 15:52:26 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:10:08 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 16:10:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 16:10:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 16:10:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 16:10:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 16:10:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 16:10:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 16:10:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:fKsRknjiTKWpghWppvkr@gmail.com
+2024-12-25 16:10:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:18649212160816874036
+2024-12-25 16:10:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 16:10:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 16:10:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 16:10:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 16:10:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 16:10:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:10:21 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 16:10:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 16:10:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 16:10:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 16:10:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 16:10:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 16:10:26 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 16:10:27 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 16:10:27 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 16:10:27 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 16:10:27 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:11:47 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 16:11:50 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 16:11:50 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 16:11:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 16:11:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 16:11:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 16:11:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 16:11:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:yaBDWecRwqjwMfPgmzHE@gmail.com
+2024-12-25 16:11:52 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:23463286616893902146
+2024-12-25 16:11:52 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 16:11:53 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 16:11:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 16:11:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 16:11:54 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 16:11:55 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:11:57 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 16:11:59 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 16:11:59 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 16:12:00 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 16:12:00 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 16:12:01 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 16:12:01 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 16:12:02 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 16:12:02 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 16:12:02 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 16:12:03 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:16:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 16:16:46 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 16:16:47 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 16:16:48 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 16:16:48 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 16:16:48 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 16:16:48 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 16:16:49 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:zKYdYkwzqbMxCGMyJDDT@gmail.com
+2024-12-25 16:16:49 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:07893896590214914494
+2024-12-25 16:16:50 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 16:16:50 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 16:16:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 16:16:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 16:16:51 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 16:16:52 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 16:16:55 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 16:16:58 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 16:16:58 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 16:16:59 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 16:16:59 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 16:16:59 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 16:17:00 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 16:17:01 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 16:17:01 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 16:17:01 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 16:17:02 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:17:06 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 17:17:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 17:17:09 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 17:17:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 17:17:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 17:17:10 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 17:17:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 17:17:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:MsCMubBQPpYqBylucGXj@gmail.com
+2024-12-25 17:17:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:07602481308160361325
+2024-12-25 17:17:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 17:17:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 17:17:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 17:17:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 17:17:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 17:17:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:17:20 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 17:17:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:17:22 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 17:17:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 17:17:23 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 17:17:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 17:17:24 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 17:17:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 17:17:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 17:17:25 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 17:17:25 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:19:36 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 17:19:39 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 17:19:39 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 17:19:40 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 17:19:40 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 17:19:41 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 17:19:41 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 17:19:41 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:gZqEKBLhNdSYiBdDzNUC@gmail.com
+2024-12-25 17:19:42 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:15423304717168832569
+2024-12-25 17:19:42 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 17:19:43 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 17:19:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 17:19:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 17:19:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 17:19:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:19:50 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 17:19:52 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:19:52 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 17:19:53 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 17:19:53 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 17:19:53 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 17:19:54 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 17:19:55 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 17:19:55 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 17:19:55 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 17:19:55 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:25:40 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 17:25:43 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 17:25:43 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 17:25:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 17:25:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 17:25:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 17:25:44 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 17:25:45 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:VLTTYHljQXVIgqdgnnXO@gmail.com
+2024-12-25 17:25:45 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:38411761273328630500
+2024-12-25 17:25:46 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 17:25:46 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 17:25:47 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 17:25:47 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 17:25:47 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 17:25:48 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:25:51 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 17:25:54 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:25:54 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 17:25:54 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 17:25:54 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 17:25:55 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 17:25:55 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 17:25:56 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 17:25:56 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 17:25:56 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 17:25:57 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:37:22 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\zubair mirza\June262024\HybridFrameWorkOpenCart_V122\localtests.xml
+
+2024-12-25 17:37:28 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2024-12-25 17:37:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2024-12-25 17:37:31 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2024-12-25 17:37:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2024-12-25 17:37:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2024-12-25 17:37:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2024-12-25 17:37:32 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2024-12-25 17:37:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:LRiRdbCGEpHNKOELVkWd@gmail.com
+2024-12-25 17:37:33 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:42416129040750003865
+2024-12-25 17:37:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2024-12-25 17:37:34 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2024-12-25 17:37:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2024-12-25 17:37:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2024-12-25 17:37:35 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2024-12-25 17:37:36 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:37:38 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2024-12-25 17:37:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:37:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2024-12-25 17:37:41 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 17:37:41 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2024-12-25 17:37:41 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 17:37:42 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2024-12-25 17:37:43 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2024-12-25 17:37:43 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2024-12-25 17:37:43 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2024-12-25 17:37:44 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:37:46 [TestNG-tests-1] INFO  testcases.TC3_Logout - WebDriver initialized for: chrome
+2024-12-25 17:37:48 [TestNG-tests-1] INFO  testcases.TC3_Logout - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:37:48 [TestNG-tests-1] INFO  testcases.TC3_Logout - Clicked on 'My Account' link.
+2024-12-25 17:37:49 [TestNG-tests-1] INFO  testcases.TC3_Logout - Clicked on 'Login' link, navigating to the Login Page.
+2024-12-25 17:37:49 [TestNG-tests-1] INFO  testcases.TC3_Logout - Entering login credentials...
+2024-12-25 17:37:50 [TestNG-tests-1] INFO  testcases.TC3_Logout - Entered email: zubair_mirza_us@yahoo.com
+2024-12-25 17:37:50 [TestNG-tests-1] INFO  testcases.TC3_Logout - Entered password.
+2024-12-25 17:37:51 [TestNG-tests-1] INFO  testcases.TC3_Logout - Clicked on the 'Login' button.
+2024-12-25 17:37:51 [TestNG-tests-1] INFO  testcases.TC3_Logout - Checking if 'My Account' page is displayed...
+2024-12-25 17:37:51 [TestNG-tests-1] INFO  testcases.TC3_Logout - Login successful. 'My Account' page is visible.
+2024-12-25 17:37:51 [TestNG-tests-1] INFO  testcases.TC3_Logout - Logging out from the account...
+2024-12-25 17:37:52 [TestNG-tests-1] INFO  testcases.TC3_Logout - Clicked on 'Logout' link.
+2024-12-25 17:37:52 [TestNG-tests-1] INFO  testcases.TC3_Logout - Clicking on 'Continue' button to navigate back to the Home Page...
+2024-12-25 17:37:53 [TestNG-tests-1] INFO  testcases.TC3_Logout - Checking if the Home Page is displayed after logout...
+2024-12-25 17:37:53 [TestNG-tests-1] INFO  testcases.TC3_Logout - Logout successful. Navigated back to the Home Page.
+2024-12-25 17:37:54 [TestNG-tests-1] INFO  testcases.TC3_Logout - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:37:56 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - WebDriver initialized for: chrome
+2024-12-25 17:37:58 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:37:58 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Navigated to the Home page.
+2024-12-25 17:37:59 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Entered product name in search field: mac
+2024-12-25 17:38:00 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Clicked on the 'Search' button to initiate product search.
+2024-12-25 17:38:00 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Navigated to the Search Results page.
+2024-12-25 17:38:00 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Verifying if the product 'MacBook' is displayed in the search results.
+2024-12-25 17:38:00 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - Product 'MacBook' found in search results. Test passed.
+2024-12-25 17:38:01 [TestNG-tests-1] INFO  testcases.TC4_SearchProduct - WebDriver quit and removed from ThreadLocal
+2024-12-25 17:38:04 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - WebDriver initialized for: chrome
+2024-12-25 17:38:06 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Navigated to application URL: https://tutorialsninja.com/demo/
+2024-12-25 17:38:06 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Entered product name in the search box: MacBook
+2024-12-25 17:38:07 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Clicked the Search button.
+2024-12-25 17:38:07 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Product found in search results: MacBook
+2024-12-25 17:38:09 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Selected product: MacBook
+2024-12-25 17:38:09 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Set quantity to: 2
+2024-12-25 17:38:10 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Clicked 'Add to Cart' for product: MacBook
+2024-12-25 17:38:10 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - Success message verified successfully.
+2024-12-25 17:38:10 [TestNG-tests-1] INFO  testcases.TC5_AddToCart - WebDriver quit and removed from ThreadLocal
