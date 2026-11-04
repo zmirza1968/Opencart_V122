@@ -1,0 +1,268 @@
+2026-11-03 09:15:30 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 09:15:31 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2026-11-03 09:15:35 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - Email entered:LjUXQ@gmail.com
+2026-11-03 09:15:36 [main] INFO  testcases.TC1_Registration - Entered phone number:96461
+2026-11-03 09:15:37 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 09:15:37 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 09:15:38 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 09:15:38 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 09:15:38 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 09:15:38 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 09:15:43 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 09:15:43 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://naveenautomationlabs.com/opencart
+2026-11-03 09:15:49 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Email entered:hFFdD@gmail.com
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Entered phone number:30379
+2026-11-03 09:15:50 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 09:15:51 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 09:15:52 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 09:15:52 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 09:15:52 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 09:15:52 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 09:31:28 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: firefox
+2026-11-03 09:31:34 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://naveenautomationlabs.com/opencart
+2026-11-03 09:31:34 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-03 09:31:36 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-03 09:31:36 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-03 09:31:37 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-03 09:31:37 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2026-11-03 09:31:39 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-03 09:31:40 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-03 09:32:01 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-03 14:13:50 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 14:13:55 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 14:13:57 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 14:13:57 [TestNG-tests-2] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 14:13:58 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 14:13:58 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 14:14:00 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 14:14:00 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 14:14:01 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 14:14:01 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 14:14:08 [TestNG-tests-2] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 14:14:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 14:14:11 [TestNG-tests-2] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 14:14:11 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 14:14:12 [TestNG-tests-2] INFO  testcases.TC1_Registration - Email entered:DjoYF@gmail.com
+2026-11-03 14:14:12 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:VrbEd@gmail.com
+2026-11-03 14:14:13 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered phone number:20562
+2026-11-03 14:14:13 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:66920
+2026-11-03 14:14:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 14:14:15 [TestNG-tests-2] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 14:14:15 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 14:14:16 [TestNG-tests-2] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 14:14:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 14:14:16 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 14:14:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 14:14:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 14:14:19 [TestNG-tests-2] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 14:14:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 14:14:21 [TestNG-tests-2] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 14:14:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 14:14:25 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2026-11-03 14:14:28 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2026-11-03 14:14:29 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-03 14:14:30 [TestNG-tests-1] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-03 14:14:31 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-03 14:14:32 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-03 14:14:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-03 14:14:33 [TestNG-tests-1] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-03 14:14:33 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-03 14:14:33 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-03 14:14:46 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-03 14:14:47 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2026-11-03 14:14:47 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-03 14:14:47 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-03 14:14:48 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-03 14:14:48 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2026-11-03 14:14:49 [TestNG-tests-1] INFO  testcases.TC2_Login - Entered password.
+2026-11-03 14:14:49 [TestNG-tests-1] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-03 14:14:49 [TestNG-tests-1] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-03 14:14:49 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-03 14:14:50 [TestNG-tests-1] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2026-11-03 14:14:51 [TestNG-tests-1] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-03 16:59:14 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 16:59:17 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver initialized for: firefox
+2026-11-03 16:59:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 16:59:17 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 16:59:19 [TestNG-tests-2] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Email entered:DPXHQ@gmail.com
+2026-11-03 16:59:19 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-03 16:59:19 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered phone number:98545
+2026-11-03 16:59:20 [TestNG-tests-1] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 16:59:21 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-03 16:59:21 [TestNG-tests-2] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-03 16:59:21 [TestNG-tests-1] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 16:59:21 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-03 16:59:21 [TestNG-tests-2] INFO  testcases.TC2_Login - Entered password.
+2026-11-03 16:59:23 [TestNG-tests-1] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 16:59:23 [TestNG-tests-1] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 16:59:23 [TestNG-tests-1] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 16:59:24 [TestNG-tests-1] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 16:59:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-03 16:59:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-03 16:59:24 [TestNG-tests-2] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2026-11-03 16:59:25 [TestNG-tests-2] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:12:24 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 17:12:27 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:12:28 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:12:29 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:12:29 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:12:29 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:12:30 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:12:30 [main] INFO  testcases.TC1_Registration - Email entered:laTiv@gmail.com
+2026-11-03 17:12:30 [main] INFO  testcases.TC1_Registration - Entered phone number:87062
+2026-11-03 17:12:31 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:12:31 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:12:34 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:12:34 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:12:34 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:12:34 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:12:45 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 17:12:48 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:12:49 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:12:50 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:12:50 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:12:50 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:12:51 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:12:51 [main] INFO  testcases.TC1_Registration - Email entered:byVGw@gmail.com
+2026-11-03 17:12:51 [main] INFO  testcases.TC1_Registration - Entered phone number:63083
+2026-11-03 17:12:52 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:12:53 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:12:56 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:12:56 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:12:57 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:12:57 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:14:20 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 17:14:22 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:14:23 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:14:24 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:14:24 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:14:25 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:14:25 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:14:25 [main] INFO  testcases.TC1_Registration - Email entered:oeffz@gmail.com
+2026-11-03 17:14:26 [main] INFO  testcases.TC1_Registration - Entered phone number:95726
+2026-11-03 17:14:26 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:14:27 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:14:29 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:14:29 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:14:29 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:14:30 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:14:45 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 17:14:47 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:14:47 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:14:48 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:14:48 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:14:49 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:14:49 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:14:49 [main] INFO  testcases.TC1_Registration - Email entered:IuVDz@gmail.com
+2026-11-03 17:14:49 [main] INFO  testcases.TC1_Registration - Entered phone number:27939
+2026-11-03 17:14:50 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:14:50 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:14:52 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:14:52 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:14:52 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:14:53 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:18:44 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 17:18:47 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:18:47 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:18:49 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:18:49 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:18:49 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:18:49 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:18:50 [main] INFO  testcases.TC1_Registration - Email entered:IaFOX@gmail.com
+2026-11-03 17:18:50 [main] INFO  testcases.TC1_Registration - Entered phone number:05558
+2026-11-03 17:18:51 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:18:51 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:18:54 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:18:54 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:18:54 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:18:55 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:18:59 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 17:19:02 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:19:02 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - Email entered:qQIVN@gmail.com
+2026-11-03 17:19:03 [main] INFO  testcases.TC1_Registration - Entered phone number:51113
+2026-11-03 17:19:04 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:19:04 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:19:06 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:19:06 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:19:06 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:19:07 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:33:10 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 17:33:13 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:33:13 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:33:14 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:33:14 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:33:14 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:33:15 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:33:15 [main] INFO  testcases.TC1_Registration - Email entered:MVGAd@gmail.com
+2026-11-03 17:33:15 [main] INFO  testcases.TC1_Registration - Entered phone number:97491
+2026-11-03 17:33:15 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:33:15 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:33:18 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:33:18 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:33:18 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:33:18 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:33:23 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 17:33:26 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:33:26 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:33:27 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:33:27 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:33:27 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:33:27 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:33:27 [main] INFO  testcases.TC1_Registration - Email entered:piCTu@gmail.com
+2026-11-03 17:33:28 [main] INFO  testcases.TC1_Registration - Entered phone number:82062
+2026-11-03 17:33:28 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:33:28 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:33:30 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:33:30 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:33:30 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:33:31 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:41:24 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-03 17:41:27 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:41:27 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:41:29 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:41:29 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:41:30 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:41:30 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:41:30 [main] INFO  testcases.TC1_Registration - Email entered:VzcqY@gmail.com
+2026-11-03 17:41:31 [main] INFO  testcases.TC1_Registration - Entered phone number:47123
+2026-11-03 17:41:31 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:41:32 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:41:34 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:41:34 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:41:34 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:41:36 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-03 17:41:43 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-03 17:41:44 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-03 17:41:46 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-03 17:41:47 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-03 17:41:47 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-03 17:41:48 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-03 17:41:48 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-03 17:41:48 [main] INFO  testcases.TC1_Registration - Email entered:OZwrz@gmail.com
+2026-11-03 17:41:49 [main] INFO  testcases.TC1_Registration - Entered phone number:73779
+2026-11-03 17:41:49 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-03 17:41:49 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-03 17:41:52 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-03 17:41:52 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-03 17:41:52 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-03 17:41:53 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
