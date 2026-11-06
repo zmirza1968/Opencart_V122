@@ -266,3 +266,94 @@
 2026-11-03 17:41:52 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
 2026-11-03 17:41:52 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
 2026-11-03 17:41:53 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:12:18 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: chrome
+2026-11-06 12:12:21 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-06 12:12:22 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-06 12:12:23 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-06 12:12:23 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-06 12:12:24 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-06 12:12:24 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-06 12:12:24 [main] INFO  testcases.TC1_Registration - Email entered:KyKGg@gmail.com
+2026-11-06 12:12:25 [main] INFO  testcases.TC1_Registration - Entered phone number:08115
+2026-11-06 12:12:25 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-06 12:12:25 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-06 12:12:28 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-06 12:12:28 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-06 12:12:29 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-06 12:12:31 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:12:35 [main] INFO  testcases.TC2_Login - WebDriver initialized for: chrome
+2026-11-06 12:12:38 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-06 12:12:38 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-06 12:12:39 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-06 12:12:39 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-06 12:12:40 [main] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-06 12:12:40 [main] INFO  testcases.TC2_Login - Entered password.
+2026-11-06 12:12:42 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-06 12:12:42 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-06 12:12:42 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2026-11-06 12:12:43 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:12:47 [main] INFO  testcases.TC6_EndToEndTest - WebDriver initialized for: chrome
+2026-11-06 12:12:50 [main] INFO  testcases.TC6_EndToEndTest - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-06 12:12:57 [main] INFO  testcases.TC6_EndToEndTest - Registration Confirmation: Your Account Has Been Created!
+2026-11-06 12:12:58 [main] INFO  testcases.TC6_EndToEndTest - Clicking 'Continue' button to return to the Home Page...
+2026-11-06 12:12:59 [main] INFO  testcases.TC6_EndToEndTest - Verifying if Home Page is displayed after logout...
+2026-11-06 12:12:59 [main] INFO  testcases.TC6_EndToEndTest - Logout successful, navigated to Home Page.
+2026-11-06 12:12:59 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: eCPMW@gmail.com
+2026-11-06 12:13:03 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+2026-11-06 12:13:03 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+2026-11-06 12:13:09 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: true
+2026-11-06 12:13:09 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+2026-11-06 12:13:13 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+2026-11-06 12:13:14 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:13:18 [main] INFO  testcases.TC1_Registration - WebDriver initialized for: edge
+2026-11-06 12:13:21 [main] INFO  testcases.TC1_Registration - Navigated to application URL:https://tutorialsninja.com/demo/
+2026-11-06 12:13:21 [main] INFO  testcases.TC1_Registration - Clicked on MyAccount link.
+2026-11-06 12:13:22 [main] INFO  testcases.TC1_Registration - Clicked on Register link, navigated to Registration page.
+2026-11-06 12:13:22 [main] INFO  testcases.TC1_Registration - Entering user details for registration...
+2026-11-06 12:13:22 [main] INFO  testcases.TC1_Registration - First Name set successfully...
+2026-11-06 12:13:22 [main] INFO  testcases.TC1_Registration - Last Name set successfully...
+2026-11-06 12:13:23 [main] INFO  testcases.TC1_Registration - Email entered:Cxgnc@gmail.com
+2026-11-06 12:13:23 [main] INFO  testcases.TC1_Registration - Entered phone number:91831
+2026-11-06 12:13:23 [main] INFO  testcases.TC1_Registration - Entered password and confirmed password successfully.
+2026-11-06 12:13:23 [main] INFO  testcases.TC1_Registration - Agreed to Privacy Policy.
+2026-11-06 12:13:25 [main] INFO  testcases.TC1_Registration - Clicked 'Continue' to submit the registration form.
+2026-11-06 12:13:25 [main] INFO  testcases.TC1_Registration - Validating the confirmation message...
+2026-11-06 12:13:25 [main] INFO  testcases.TC1_Registration - Account registration successful. Confirmation message validated.
+2026-11-06 12:13:26 [main] INFO  testcases.TC1_Registration - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:13:28 [main] INFO  testcases.TC2_Login - WebDriver initialized for: edge
+2026-11-06 12:13:30 [main] INFO  testcases.TC2_Login - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-06 12:13:30 [main] INFO  testcases.TC2_Login - Clicked on 'My Account' link.
+2026-11-06 12:13:31 [main] INFO  testcases.TC2_Login - Clicked on 'Login' link, navigating to the Login Page.
+2026-11-06 12:13:31 [main] INFO  testcases.TC2_Login - Entering user login credentials...
+2026-11-06 12:13:31 [main] INFO  testcases.TC2_Login - Entered email: asad12345@gmail.com
+2026-11-06 12:13:32 [main] INFO  testcases.TC2_Login - Entered password.
+2026-11-06 12:13:33 [main] INFO  testcases.TC2_Login - Clicked on the 'Login' button.
+2026-11-06 12:13:33 [main] INFO  testcases.TC2_Login - Verifying if the 'My Account' page is displayed...
+2026-11-06 12:13:33 [main] INFO  testcases.TC2_Login - Login successful. 'My Account' page is displayed.
+2026-11-06 12:13:34 [main] INFO  testcases.TC2_Login - WebDriver quit and removed from ThreadLocal.
+2026-11-06 12:13:36 [main] INFO  testcases.TC6_EndToEndTest - WebDriver initialized for: edge
+2026-11-06 12:13:39 [main] INFO  testcases.TC6_EndToEndTest - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-06 12:13:42 [main] INFO  testcases.TC6_EndToEndTest - Registration Confirmation: Your Account Has Been Created!
+2026-11-06 12:13:43 [main] INFO  testcases.TC6_EndToEndTest - Clicking 'Continue' button to return to the Home Page...
+2026-11-06 12:13:44 [main] INFO  testcases.TC6_EndToEndTest - Verifying if Home Page is displayed after logout...
+2026-11-06 12:13:44 [main] INFO  testcases.TC6_EndToEndTest - Logout successful, navigated to Home Page.
+2026-11-06 12:13:44 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: SxmJo@gmail.com
+2026-11-06 12:13:46 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+2026-11-06 12:13:46 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+2026-11-06 12:14:12 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: false
+2026-11-06 12:14:32 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+2026-11-06 12:14:36 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+2026-11-06 12:14:37 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.
+2026-11-06 15:08:31 [main] INFO  testcases.TC6_EndToEndTest - WebDriver initialized for: chrome
+2026-11-06 15:08:34 [main] INFO  testcases.TC6_EndToEndTest - Navigated to application URL: https://tutorialsninja.com/demo/
+2026-11-06 15:08:48 [main] INFO  testcases.TC6_EndToEndTest - Registration Confirmation: Your Account Has Been Created!
+2026-11-06 15:08:49 [main] INFO  testcases.TC6_EndToEndTest - Clicking 'Continue' button to return to the Home Page...
+2026-11-06 15:08:50 [main] INFO  testcases.TC6_EndToEndTest - Verifying if Home Page is displayed after logout...
+2026-11-06 15:08:50 [main] INFO  testcases.TC6_EndToEndTest - Logout successful, navigated to Home Page.
+2026-11-06 15:08:51 [main] INFO  testcases.TC6_EndToEndTest - Logging into the application with email: zgRjc@gmail.com
+2026-11-06 15:08:56 [main] INFO  testcases.TC6_EndToEndTest - Is My Account page displayed? true
+2026-11-06 15:08:56 [main] INFO  testcases.TC6_EndToEndTest - Searching and adding product to the cart...
+2026-11-06 15:09:03 [main] INFO  testcases.TC6_EndToEndTest - Product added to cart: true
+2026-11-06 15:09:03 [main] INFO  testcases.TC6_EndToEndTest - Verifying items in the shopping cart...
+2026-11-06 15:09:08 [main] INFO  testcases.TC6_EndToEndTest - Total price in shopping cart: $1,204.00
+2026-11-06 15:09:08 [main] INFO  testcases.TC6_EndToEndTest - WebDriver quit and removed from ThreadLocal.

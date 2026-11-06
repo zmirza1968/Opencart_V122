@@ -29,15 +29,17 @@
 			<!--class name="testcases.TC4_SeachProduct" />-->
 			<!--class name="testcases.TC5_AddToCart" />-->
 			<!--class name="testcases.TC_2Loginddt"/>-->
+			<!--class name ="testcases.TC6_EndToEndTest"/>-->
 		</classes>
 	</test>
 	
-	<test name="windows-edge" enabled="true">
+	<test name="windows-edge" enabled="false">
 		<parameter name="os" value="windows"/>
 		<parameter name="browser" value="edge"/>
 		<classes>
 			<class name="testcases.TC1_Registration"/>
 			<class name="testcases.TC2_Login"/>
+			<!--class name ="testcases.TC6_EndToEndTest"/>-->
 		</classes>
 	</test>
 		

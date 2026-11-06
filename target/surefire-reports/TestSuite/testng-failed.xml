@@ -4,24 +4,6 @@
   <listeners>
     <listener class-name="utilities.ExtentReporter"/>
   </listeners>
-  <test thread-count="3" name="windows-chrome(failed)" verbose="0">
-    <parameter name="os" value="windows"/>
-    <parameter name="browser" value="chrome"/>
-    <groups>
-      <run>
-        <include name="Master"/>
-      </run>
-    </groups>
-    <classes>
-      <class name="testcases.TC2_Login">
-        <methods>
-          <include name="testLoginWithValidCredentials"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- testcases.TC2_Login -->
-    </classes>
-  </test> <!-- windows-chrome(failed) -->
   <test thread-count="3" name="windows-edge(failed)" verbose="0">
     <parameter name="os" value="windows"/>
     <parameter name="browser" value="edge"/>
@@ -31,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testcases.TC2_Login">
+      <class name="testcases.TC6_EndToEndTest">
         <methods>
-          <include name="testLoginWithValidCredentials"/>
+          <include name="executeEndToEndTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.TC2_Login -->
+      </class> <!-- testcases.TC6_EndToEndTest -->
     </classes>
   </test> <!-- windows-edge(failed) -->
 </suite> <!-- Failed suite [TestSuite] -->

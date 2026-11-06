@@ -9,14 +9,22 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">TestSuite</th></tr>
-<tr><td><a href="#t0">windows-chrome</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">21,625</td><td>Master</td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">windows-edge</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">15,231</td><td>Master</td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">36,856</th><th colspan="2"></th></tr>
+<tr><td><a href="#t0">windows-chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">66,859</td><td>Master</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">windows-edge</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">82,237</td><td>Master</td><td></td></tr>
+<tr><th>Total</th><th class="num">5</th><th class="num">0</th><th class="num">0</th><th class="num attn">1</th><th class="num">149,096</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">windows-chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.TC1_Registration</td><td><a href="#m0">testUserRegistration</a></td><td rowspan="1">1793745684128</td><td rowspan="1">10680</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">windows-edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.TC1_Registration</td><td><a href="#m1">testUserRegistration</a></td><td rowspan="1">1793745703675</td><td rowspan="1">8693</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">windows-chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.TC1_Registration</td><td><a href="#m0">testUserRegistration</a></td><td rowspan="1">1793985138617</td><td rowspan="1">10792</td></tr><tr class="passedodd"><td rowspan="1">testcases.TC2_Login</td><td><a href="#m1">testLoginWithValidCredentials</a></td><td rowspan="1">1793985155713</td><td rowspan="1">7173</td></tr><tr class="passedeven"><td rowspan="1">testcases.TC6_EndToEndTest</td><td><a href="#m2">executeEndToEndTest</a></td><td rowspan="1">1793985167298</td><td rowspan="1">26444</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">windows-edge &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">testcases.TC6_EndToEndTest</td><td><a href="#m3">executeEndToEndTest</a></td><td rowspan="1">1793985216477</td><td rowspan="1">60020</td></tr><tr><th colspan="4">windows-edge &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testcases.TC1_Registration</td><td><a href="#m4">testUserRegistration</a></td><td rowspan="1">1793985198951</td><td rowspan="1">6546</td></tr><tr class="passedodd"><td rowspan="1">testcases.TC2_Login</td><td><a href="#m5">testLoginWithValidCredentials</a></td><td rowspan="1">1793985208270</td><td rowspan="1">5475</td></tr></tbody>
 </table>
 <h2>windows-chrome</h2><h3 id="m0">testcases.TC1_Registration#testUserRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>windows-edge</h2><h3 id="m1">testcases.TC1_Registration#testUserRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testcases.TC2_Login#testLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testcases.TC6_EndToEndTest#executeEndToEndTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>windows-edge</h2><h3 id="m3">testcases.TC6_EndToEndTest#executeEndToEndTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: The following asserts failed:
+	expected [true] but found [false]
+	at testcases.TC6_EndToEndTest.executeEndToEndTest(TC6_EndToEndTest.java:50)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testcases.TC1_Registration#testUserRegistration</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testcases.TC2_Login#testLoginWithValidCredentials</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

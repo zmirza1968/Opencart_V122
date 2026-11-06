@@ -10,6 +10,10 @@ C:\Automation\myworkspace\Opencart_V122\src\test\java\pageobjects\ShoppingCartPa
 C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\BaseClass.java
 C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC1_Registration.java
 C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC2_Login.java
+C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC3_Logout.java
+C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC4_SearchProduct.java
+C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC5_AddToCart.java
+C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC6_EndToEndTest.java
 C:\Automation\myworkspace\Opencart_V122\src\test\java\testcases\TC_2Loginddt.java
 C:\Automation\myworkspace\Opencart_V122\src\test\java\utilities\ConfigReader.java
 C:\Automation\myworkspace\Opencart_V122\src\test\java\utilities\DataProviders.java
